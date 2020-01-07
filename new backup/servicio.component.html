@@ -1,0 +1,93 @@
+<header class="hed"> 
+
+
+<div class="col-lg-5">
+<h1 class="text">Servicios</h1>
+
+</div>
+
+</header>
+
+<div class="row">
+ <div class="col-lg-3">
+<div class="content">
+<div class="subcontent container">
+
+<h1>Tour of Heroes ({{mode}})</h1>
+<h3>Heroes:</h3>
+
+
+
+<h1> {{title}} </h1>
+<input  #term> 
+<button (click)="search(term.value)">buscar</button> 
+<br>
+
+
+<ul>
+   
+   
+      <li *ngFor="let item of items | async"><br><br>{{item.nombre}}{{item.titulo1}}<br><br>{{item.year3}}<br><br>{{item.autor2}}<br><br><img src="{{item.lib1}}"> <br><br>{{item.titulo5}}<br><br>{{item.year7}}<br><br>{{item.autor6}}<br><br> <img src="{{item.lib2}}"><br><br>{{item.titulo8}}<br><br>{{item.year10}}<br><br>{{item.autor9}}<img src="{{item.lib3}}"><br><br>{{item.titulo11}}<br><br>{{item.year13}}<br><br>{{item.autor12}}<br><br><img src="{{item.lib4}}"><br><br>{{item.titulo14}}<br><br>{{item.year16}}<br><br>{{item.autor15}}<br><br><img src="{{item.lib5}}">
+   
+    
+
+
+
+      {{item.nombre}}<br><br>{{item.titulo17}}<br><br>{{item.year19}}<br><br>{{item.autor18}}<br><br><img src="{{item.lib6}}"><br><br>{{item.nombre}}<br><br>{{item.titulo20}}<br><br>{{item.year22}}<br><br>{{item.autor21}}<br><br><img src="{{item.lib7}}"><br><br>{{item.nombre}}<br><br>{{item.titulo23}}<br><br>{{item.year25}}<br><br>{{item.autor24}}<br><br> <img src="{{item.lib10}}"
+      >
+
+
+
+ 
+      {{item.nombre}}<br><br>{{item.titulo26}}<br><br>{{item.year28}}<br><br>{{item.autor27}}<br><br><img src="{{item.lib11}}"><br><br>{{item.nombre}}<br><br>{{item.titulo28}}<br><br>{{item.year30}}<br><br>{{item.autor29}}<br><br><img src="{{item.lib12}}"><br><br>{{item.nombre}}<br><br>{{item.titulo31}}<br><br>{{item.year33}}<br><br>{{item.autor32}}<br><br><img src="{{item.lib13}}"><br><br>{{item.nombre}}<br><br>{{item.titulo34}}<br><br>{{item.year36}}<br><br>{{item.autor35}}<br><br><img src="{{item.lib14}}"><br><br>{{item.nombre}}<br><br>{{item.titulo36}}<br><br>{{item.year38}}<br><br>{{item.autor37}}<br><br><img src="{{item.lib15}}">
+
+      </li>
+      </ul>
+      
+
+
+<!-- <h1>S.PRUEBAS</h1>
+ 
+     <p>Search after each keystroke</p>
+    <input #term/>
+
+    <button type="submit" (click)="search(term.value)">buscar </button>
+
+
+<ul *ngFor="let item of items | async">{{item}
+<li>
+
+</li>
+    </ul> -->
+    </div>
+     </div>
+</div>
+
+
+
+
+
+
+           <div class="col-lg-3">
+		   <sd-swiki></sd-swiki>
+		   </div>
+
+		   <div class="col-lg-3">
+		   <sd-sbiblio></sd-sbiblio>
+		   </div>
+
+       <div class="col-lg-3">
+       <sd-simg></sd-simg>
+       </div>
+
+		   
+
+
+		   </div>
+
+		
+
+
+
+
+

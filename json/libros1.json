@@ -1,0 +1,116 @@
+{
+  "comedia":[
+
+  	    { "text":["Divina Comedia",
+                  "Dante",
+                   "Alighieri",
+                   "desconocido"]
+  	},
+
+               { "img":[             
+                    "http://www.elresumen.com/libros/la_divina_comedia.jpg"
+                      ]
+                  },
+
+                   { "text":["la conjura de los necios",
+                  "John Kennedy Toole",
+                   "1976"
+                   ]
+          	},
+
+               { "img":[             
+                    "http://www.anagrama-ed.es/uploads/media/portadas/0001/15/eec84be551eddec97d987585b2e54afb000c9c96.jpeg"
+                      ]
+                  },
+
+      { "text":["Wilt",
+                  "Tom Sharpe",
+                   "1976"
+                   ]
+          	},
+
+               { "img":[             
+                    "http://www.quelibroleo.com/images/libros/libro_1375726237.jpg"
+                      ]
+                  }
+
+
+               ],
+
+
+  "literatura":[
+
+  	  	    { "text":["Don Quijote de la Mancha",
+                  "Miguel de Cervantes Savedra",
+                   "1605"
+                   ]
+  	            },
+
+               { "img":[             
+                    "https://image.slidesharecdn.com/davidminguijn-160421233730/95/don-quijote-ii-parte-captulo-20-1-638.jpg?cb=1461281960"
+                      ]
+                  },
+
+  	  	    { "text":["El principito",
+                  "Éditions Gallimard",
+                   "1946"
+                   ]
+  	            },
+
+               { "img":[             
+                    "http://static.vix.com/es/sites/default/files/styles/large/public/btg/curiosidades.batanga.com/files/Los-15-libros-mas-destacados-en-la-historia-de-la-literatura-2.jpg?itok=AL5_2YrS"
+                      ]
+                  },
+
+         { "text":["Crimen y castigo",
+                  "Fiódor Dostoievski",
+                   "1866"
+                   ]
+  	            },
+
+               { "img":[             
+                    "https://www.mindmeister.com/images/download/23457681"
+                      ]
+                  }
+                     ],
+    "historia":[
+
+  	  	    { "text":["Diario de Ana Frank",
+                  "Ana Frank",
+                   "1942"
+                   ]
+  	            },
+
+               { "img":[             
+                    "https://libreriapensar.com/1810-atmn_large/el-diario-de-ana-frank-atenea.jpg"
+                      ]
+                  },
+
+  	  	    { "text":["Galaxia Gutenberg",
+                  "Joan Tarrida",
+                   "1994"
+                   ]
+  	            },
+
+               { "img":[             
+                    "http://cloud10.todocoleccion.online/libros/tc/2010/01/22/17095625.jpg"
+                      ]
+                  },
+
+         { "text":["Guerra y paz",
+                  "León Tolstói",
+                   "1864"
+                   ]
+  	            },
+
+               { "img":[             
+                    "http://laplumayellibro.com/wp-content/uploads/2016/08/Guerra-y-Paz-de-Leon-Tolstoi.jpg"
+                      ]
+                  }
+                     ]
+
+                   
+  	     }
+      
+
+  

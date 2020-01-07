@@ -1,0 +1,41 @@
+<div class="row">
+
+  <div class="col-lg-12">
+<div class="content">
+<div class="subcontent container">
+<h1>S.BIBLIOTECA</h1>
+
+<!-- <select class="sel">
+  <option class="hl" href="http://localhost:3000/peliculas" value="/peliculas">peliculas</option>
+  <option href="http://localhost:3000/clasificaciones" value="clasificacion">clasificacion</option>
+  </select> -->
+
+
+    
+    <input #term >
+
+<button (click)="search(term.value)">buscar</button>
+
+
+
+ <!-- listar los datos del api -->
+    <ul>
+   
+   
+      <li *ngFor="let item of items | async"><br><br>{{item.nombre}}{{item.titulo1}}<br><br>{{item.year3}}<br><br>{{item.autor2 | json}}<br><br><img src="{{item.lib1}}"> <br><br>{{item.titulo5}}<br><br>{{item.year7}}<br><br>{{item.autor6 | json}}<br><br> <img src="{{item.lib2}}"><br><br>{{item.titulo8}}<br><br>{{item.year10}}<br><br>{{item.autor9 | json}}<img src="{{item.lib3}}"><br><br>{{item.titulo11}}<br><br>{{item.year13}}<br><br>{{item.autor12 | json}}<br><br><img src="{{item.lib4}}"><br><br>{{item.titulo14}}<br><br>{{item.year16}}<br><br>{{item.autor15 | json}}<br><br><img src="{{item.lib5}}">
+   
+    
+
+
+
+      {{item.nombre}}<br><br>{{item.titulo17}}<br><br>{{item.year19}}<br><br>{{item.autor18 | json}}<br><br><img src="{{item.lib6}}"><br><br>{{item.nombre}}<br><br>{{item.titulo20}}<br><br>{{item.year22}}<br><br>{{item.autor21 | json}}<br><br><img src="{{item.lib7}}"><br><br>{{item.nombre}}<br><br>{{item.titulo23}}<br><br>{{item.year25}}<br><br>{{item.autor24 | json}}<br><br> <img src="{{item.lib10}}"
+      >
+
+
+
+ 
+      {{item.nombre}}<br><br>{{item.titulo26}}<br><br>{{item.year28}}<br><br>{{item.autor27 | json}}<br><br><img src="{{item.lib11}}"><br><br>{{item.nombre}}<br><br>{{item.titulo28}}<br><br>{{item.year30}}<br><br>{{item.autor29 | json}}<br><br><img src="{{item.lib12}}"><br><br>{{item.nombre}}<br><br>{{item.titulo31}}<br><br>{{item.year33}}<br><br>{{item.autor32 | json}}<br><br><img src="{{item.lib13}}"><br><br>{{item.nombre}}<br><br>{{item.titulo34}}<br><br>{{item.year36}}<br><br>{{item.autor35 | json}}<br><br><img src="{{item.lib14}}"><br><br>{{item.nombre}}<br><br>{{item.titulo36}}<br><br>{{item.year38}}<br><br>{{item.autor37 | json}}<br><br><img src="{{item.lib15}}">
+
+      </li>
+      </ul>
+      

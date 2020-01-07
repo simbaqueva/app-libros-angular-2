@@ -1,0 +1,77 @@
+<header class="hed"> 
+
+
+<div class="col-lg-5">
+<h1 class="text">Servicios</h1>
+
+</div>
+
+</header>
+
+<div class="row">
+ <div class="col-lg-3">
+<div class="content">
+<div class="subcontent container">
+
+<h1>Tour of Heroes ({{mode}})</h1>
+<h3>Heroes:</h3>
+
+
+
+<h1> {{title}} </h1>
+<input name="search" #item> 
+<button (click)="listItems(item.value)">Search</button> 
+<br>
+<ul> 
+<li *ngFor="let litem of litems"> <img class="imgs" src="{{litem}}"><!-- {{litem.nombre}} {{litem.apellido}} {{litem.edad}} --> 
+</li>
+</ul>
+
+
+
+
+<!-- <h1>S.PRUEBAS</h1>
+ 
+     <p>Search after each keystroke</p>
+    <input #term/>
+
+    <button type="submit" (click)="search(term.value)">buscar </button>
+
+
+<ul *ngFor="let item of items | async">{{item}
+<li>
+
+</li>
+    </ul> -->
+    </div>
+     </div>
+</div>
+
+
+
+
+
+
+           <div class="col-lg-3">
+		   <sd-swiki></sd-swiki>
+		   </div>
+
+		   <div class="col-lg-3">
+		   <sd-sbiblio></sd-sbiblio>
+		   </div>
+
+       <div class="col-lg-3">
+       <sd-simg></sd-simg>
+       </div>
+
+		   
+
+
+		   </div>
+
+		
+
+
+
+
+

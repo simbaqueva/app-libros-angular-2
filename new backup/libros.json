@@ -1,0 +1,66 @@
+{
+  "libros": [
+    {
+      "nombre": "comedia",
+      "titulo1": "Divina Comedia",
+      "autor2": " Dante Alighieri",
+      "year3": "desconocido",
+      "lib1": "data:image/jpeg;base64,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",
+     "titulo5": "la conjura de los necios",
+      "autor6": "John Kennedy Toole,",
+      "year7": " 1980",
+      "lib2": "http://www.anagrama-ed.es/uploads/media/portadas/0001/15/eec84be551eddec97d987585b2e54afb000c9c96.jpeg",
+      "titulo8": "Wilt",
+      "autor9": "Tom Sharpe",
+      "year10": "1976",
+      "lib3": "http://www.quelibroleo.com/images/libros/libro_1375726237.jpg",
+     "titulo11": "Guía del autoestopista galáctico",
+      "autor12": " Douglas Adams",
+      "year13": "1979",
+      "lib4": "https://imagessl8.casadellibro.com/a/l/t0/08/9788433973108.jpg",
+      "titulo14": "Las cinco advertencias de Satanás",
+      "autor15": "Enrique Jardiel Poncela",
+      "year16": "1935",
+      "lib5": "https://i.ytimg.com/vi/y1nO65jLYes/hqdefault.jpg"
+    },
+    {
+    "nombre": "literatura",
+    "titulo17": "Don Quijote de la Mancha",
+    "autor18": "Miguel de Cervantes Saavedra",
+    "year19": "1605",
+    "lib6": "https://image.slidesharecdn.com/davidminguijn-160421233730/95/don-quijote-ii-parte-captulo-20-1-638.jpg?cb=1461281960",
+    "titulo20": "El principito",
+    "autor21": "Éditions Gallimard",
+    "year22": "1946",
+    "lib7": "http://static.vix.com/es/sites/default/files/styles/large/public/btg/curiosidades.batanga.com/files/Los-15-libros-mas-destacados-en-la-historia-de-la-literatura-2.jpg?itok=AL5_2YrS",
+    "titulo23": "Crimen y castigo",
+    "autor24": "Fiódor Dostoievski",
+    "year25": "1866",
+    "lib10": "https://www.mindmeister.com/images/download/23457681"
+    },
+    {
+     "nombre": "historia",  
+     "titulo26": "Diario de Ana Frank",
+     "autor27": "Ana Frank",
+     "year28": "1942",
+     "lib11": "https://libreriapensar.com/1810-atmn_large/el-diario-de-ana-frank-atenea.jpg",
+     "titulo28": "Galaxia Gutenberg",
+     "autor29": "Joan Tarrida",
+     "year30": "1994",
+     "lib12": "http://cloud10.todocoleccion.online/libros/tc/2010/01/22/17095625.jpg",
+     "titulo31": "Guerra y paz",
+     "autor32": "León Tolstói",
+     "year33": "1864",
+     "lib13": "http://laplumayellibro.com/wp-content/uploads/2016/08/Guerra-y-Paz-de-Leon-Tolstoi.jpg",
+     "titulo34": "Las aventuras de Huckleberry Finn",
+     "autor35": "Mark Twain",
+     "year36": "1885",
+     "lib14": "https://the-artifice.com/wp-content/uploads/2015/09/ADVENTURES_OF_HUCKLEBERRY_FINN-2.jpg",
+     "titulo36": "Eichmann en Jerusalén",
+     "autor37": "Hannah Arendt",
+     "year38": "1963",
+     "lib15": "https://imagessl1.casadellibro.com/a/l/t0/51/9788426413451.jpg"
+    }
+  ]
+
+}
